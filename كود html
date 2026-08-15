@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="ar" dir="ltr">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Landing Page</title>
+<link href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;500;600;700&display=swap" rel="stylesheet">
+<link rel="stylesheet" href="CSS/style.css">
+</head>
+<body>
+
+  <nav class="navbar">
+    <div class="brand">Landing Page</div>
+    <ul class="nav-links">
+      <li><a href="#">Home</a></li>
+      <li><a href="#">Features</a></li>
+      <li><a href="#">Pricing</a></li>
+      <li><button class="dropdown-btn">Dropdown ▾</button></li>
+    </ul>
+    <div class="search-box">
+      <input type="text" placeholder="Search">
+    </div>
+  </nav>
+
+  <section class="hero">
+    <h1>Welcome to Our Website</h1>
+    <p>Your go-to platform for amazing features.</p>
+    <button class="btn-primary">Get Started</button>
+  </section>
+
+  <section class="features">
+    <div class="feature-card">
+      <h3>Feature 1</h3>
+      <p>Detail about feature 1.</p>
+    </div>
+
+    <div class="feature-card">
+      <h3>Feature 2</h3>
+      <p>Detail about feature 2.</p>
+    </div>
+
+    <div class="feature-card">
+      <h3>Feature 3</h3>
+      <p>Detail about feature 3.</p>
+    </div>
+  </section>
+
+</body>
+</html>
